@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Form Login </title>
+<style>
+body {
+background-image: url("background-image.jpg");
+background-size:cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+margin:0;
+}
+
+.login-form{
+background-color:rgba(255, 255,255,0.8);
+padding:20px;
+border-radius: 5px;
+}
+
+.login-form h2 {
+text-align: center;
+}
+
+.login-form label,
+.login-form input {
+widht:100%;
+padding: 5px;
+border-radius: 3px;
+}
+
+.login-form input {
+widht: 100%;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 3px;
+}
+
+.login-form input[type="submit"] {
+background-color: #007bff;
+color:#fff;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+<div class="login-form">
+<h2> Form Login </h2>
+<form action="#" method="post">
+<label for ="username">Username:</label>
+<input type="tekt" id="username" name="username" requered><br>
+
+<label for ="password">password:</label>
+<input type="tekt" id="password" name="password" requered><br>
+
+<input type="submit" value="Login">
+</form>
+</div>
+</body>
+</html>
